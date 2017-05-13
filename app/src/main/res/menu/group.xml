@@ -1,0 +1,102 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/new_group"
+        android:icon="@drawable/ic_new_group"
+        android:title="@string/new_group"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/account_manage"
+        android:icon="@drawable/ic_account_manage"
+        android:title="@string/account_manage"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_event_log"
+        android:title="@string/notification"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/audit"
+        android:icon="@drawable/ic_audit_log"
+        android:title="@string/audit_log"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iostlog"
+        android:icon="@drawable/ic_event_log"
+        android:title="@string/iostlog"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/company"
+        android:icon="@drawable/ic_new_company"
+        android:title="@string/company_info"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/subsidiary"
+        android:icon="@drawable/ic_company"
+        android:title="@string/subsidiary"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/announce"
+        android:icon="@drawable/ic_file_add"
+        android:title="@string/announcement"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/flink"
+        android:icon="@drawable/ic_file_add"
+        android:title="@string/file_link"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/advGP"
+        android:icon="@drawable/ic_new_group"
+        android:title="@string/advgp"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cloud_status"
+        android:icon="@drawable/ic_cloud"
+        android:title="@string/cloud_status"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_1"
+        android:title="@string/app_settings"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

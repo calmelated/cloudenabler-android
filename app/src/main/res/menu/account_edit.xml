@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/apply_permission"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/apply_permission"
+        app:showAsAction="always" />
+
+</menu>

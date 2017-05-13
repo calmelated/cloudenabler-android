@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_settings">APP 設定</string>
+    <string name="pref_app_setings">APP 設定</string>
+    <string name="pref_app_ver">APP 版本</string>
+    <string name="pref_install_latest_app">安裝最新版本的APP</string>
+    <string name="pref_cloud_url">主機位置</string>
+    <string name="pref_lang_settings">語言</string>
+    <string name="pref_notification">通知</string>
+    <string name="pref_notification_receive">通知</string>
+    <string name="pref_notification_receive_summery">接收從雲端來的通知訊息或告警</string>
+    <string name="pref_notification_sound">聲音</string>
+    <string name="pref_notification_vibration">震動</string>
+</resources>

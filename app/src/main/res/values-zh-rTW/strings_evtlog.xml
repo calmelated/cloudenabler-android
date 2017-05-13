@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="evtlog_00">裝置電源啟動</string>
+    <string name="evtlog_01">RTC 錯誤 (主板)</string>
+    <string name="evtlog_02">RTC 準備完成 (主板)</string>
+    <string name="evtlog_03">SPI 錯誤 (主板)</string>
+    <string name="evtlog_04">保留</string>
+    <string name="evtlog_05">保留</string>
+    <string name="evtlog_06">保留</string>
+    <string name="evtlog_07">保留</string>
+    <string name="evtlog_08">Extender 事件</string>
+    <string name="evtlog_09">保留</string>
+    <string name="evtlog_0A">保留</string>
+    <string name="evtlog_0B">保留</string>
+    <string name="evtlog_0C">保留</string>
+    <string name="evtlog_0D">保留</string>
+    <string name="evtlog_0E">保留</string>
+    <string name="evtlog_0F">保留</string>
+    <string name="evtlog_10">保留</string>
+    <string name="evtlog_11">保留</string>
+    <string name="evtlog_12">保留</string>
+    <string name="evtlog_13">保留</string>
+    <string name="evtlog_14">保留</string>
+    <string name="evtlog_15">保留</string>
+    <string name="evtlog_16">保留</string>
+    <string name="evtlog_17">保留</string>
+    <string name="evtlog_18">保留</string>
+    <string name="evtlog_19">保留</string>
+    <string name="evtlog_1A">保留</string>
+    <string name="evtlog_1B">保留</string>
+    <string name="evtlog_1C">保留給 Cloud/APP</string>
+    <string name="evtlog_1D">保留給 Cloud/APP</string>
+    <string name="evtlog_1E">Cloud RY事件</string>
+    <string name="evtlog_1F">保留</string>
+
+    <string name="evtlog_20">WLAN 電源啟動</string>
+    <string name="evtlog_21">WLAN 重開</string>
+    <string name="evtlog_22">DHCP 準備完成</string>
+    <string name="evtlog_23">DHCP 釋放</string>
+    <string name="evtlog_24">WLAN Client 模式 – 已連接</string>
+    <string name="evtlog_25">WLAN Client 模式 – 離線</string>
+    <string name="evtlog_26">更新 CB 程式</string>
+    <string name="evtlog_27">無法更新 CB 程式</string>
+    <string name="evtlog_28">成功更新 CB 程式</string>
+    <string name="evtlog_29">WLAN 恢復出廠預設</string>
+    <string name="evtlog_2A">成功下載韌體，開始進行更新</string>
+    <string name="evtlog_2B">WLAN 變為 AP 模式</string>
+    <string name="evtlog_2C">WLAN 變為 Client 模式</string>
+    <string name="evtlog_2D">乙太網路斷線</string>
+    <string name="evtlog_2E">乙太網路連線</string>
+    <string name="evtlog_2F">類比數入的數量高於上限</string>
+
+    <string name="evtlog_30">類比數入的數量低於下限</string>
+    <string name="evtlog_31">無線類比數入的數量高於上限</string>
+    <string name="evtlog_32">無線類比數入的數量低於下限</string>
+    <string name="evtlog_33">裝置變為本地模式</string>
+    <string name="evtlog_34">裝置變為雲端模式</string>
+    <string name="evtlog_35">成功儲存 CB 描述檔</string>
+    <string name="evtlog_36">無法儲存 CB 描述檔</string>
+    <string name="evtlog_37">上傳設定檔</string>
+    <string name="evtlog_38">成功儲存控制器的韌體</string>
+    <string name="evtlog_39">無法儲存控制器的韌體</string>
+    <string name="evtlog_3A">成功儲存 ACB Data 檔案</string>
+    <string name="evtlog_3B">無法儲存 ACB Data 檔案</string>
+    <string name="evtlog_3C">雲端傳送統計 - </string>
+    <string name="evtlog_3D">雲端接收統計 - </string>
+    <string name="evtlog_3E">雲端 DNS 統計 - </string>
+    <string name="evtlog_3F">Modbus/UART的設定被改變</string>
+
+    <string name="evtlog_40">成功更新附板的韌體</string>
+    <string name="evtlog_41">無法更新附板的韌體</string>
+    <string name="evtlog_42">儲存事件記錄到裝置內的快閃記憶體</string>
+    <string name="evtlog_43">USB裝置的狀態 - </string>
+    <string name="evtlog_44">傳送記錄檔 </string>
+
+    <string name="evtlog_unknown_type">未定義的事件</string>
+    <string name="evtlog_back_normal">恢復正常!</string>
+    <string name="evtlog_write_error">無法寫入</string>
+    <string name="evtlog_profile_error">錯誤的設定檔</string>
+    <string name="evtlog_nousb_error">未接裝置</string>
+
+</resources>

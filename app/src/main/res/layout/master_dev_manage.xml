@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="9">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="11" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.5">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:nestedScrollingEnabled="false">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName|textAutoComplete"
+                    android:id="@+id/editDevName"
+                    android:hint="@string/device_name_hint"
+                    android:maxLength="32" />
+
+                <TextView
+                    android:id="@+id/txtMbusType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="#ff000000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/type" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinMbusType" />
+
+                <LinearLayout
+                    android:id="@+id/layoutSerial"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ff000000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/serial_port" />
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/spinComPort" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ff000000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/slave_id" />
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/spinSlvId" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutTCP"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ff000000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/tcp_master_setting" />
+
+                    <EditText
+                        android:id="@+id/editIp"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:hint="@string/slave_ip_hinet"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10" />
+
+                    <EditText
+                        android:id="@+id/editPort"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:hint="@string/slave_port_hint"
+                        android:inputType="numberDecimal"
+                        android:digits="0123456789"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"
+                        android:ems="5" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ff000000"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/slave_id" />
+
+                    <Spinner
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/spinTCPSlvId" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/enable"
+                    android:layout_gravity="left"
+                    android:text="@string/enable"
+                    android:checked="true"
+                    android:textSize="20sp"
+                    android:singleLine="true"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:id="@+id/btnDevConfirm"
+                android:gravity="center"
+                android:background="#2E5E86"
+                android:textColor="#ffffffff"
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="11" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="9">
+    </LinearLayout>
+
+
+</LinearLayout>

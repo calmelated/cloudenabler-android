@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView android:id="@+id/txtInfo"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:textColor="#000000"
+              android:textSize="16sp"
+              android:textStyle="bold"
+              android:ellipsize="end"
+              android:maxLines="1"
+              android:gravity="center_vertical"
+        android:minHeight="40dp" />
+
+</LinearLayout>

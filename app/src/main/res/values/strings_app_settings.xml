@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_settings">APP Settings</string>
+    <string name="pref_app_setings">APP settings</string>
+    <string name="pref_app_ver">APP version</string>
+    <string name="pref_install_latest_app">Update to the latest APP</string>
+    <string name="pref_cloud_url">Server Address</string>
+    <string name="pref_lang_settings">Languages</string>
+    <string name="pref_notification">Notifications</string>
+    <string name="pref_notification_receive">Notifications</string>
+    <string name="pref_notification_receive_summery">Receive notifications/alarm from Cloud</string>
+    <string name="pref_notification_sound">Sound</string>
+    <string name="pref_notification_vibration">Vibration</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/pref_notification">
+        <CheckBoxPreference
+            android:key="prefReceiveNotify"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/pref_notification_receive"
+            android:summary="@string/pref_notification_receive_summery" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:dependency="prefReceiveNotify"
+            android:icon="@drawable/ic_notification_sound"
+            android:key="prefNotifySound"
+            android:title="@string/pref_notification_sound">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:dependency="prefReceiveNotify"
+            android:icon="@drawable/ic_notification_vibration"
+            android:key="prefNotifyVibration"
+            android:title="@string/pref_notification_vibration">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+   <PreferenceCategory
+       android:title="@string/pref_app_setings"
+       android:key="CategorySysPref" >
+
+       <ListPreference
+           android:entries="@array/customer"
+           android:entryValues="@array/customer"
+           android:dialogIcon="@drawable/ic_interface"
+           android:icon="@drawable/ic_interface"
+           android:key="prefInterface"
+           android:summary=""
+           android:title="@string/pref_interface" />
+
+        <ListPreference
+            android:entries="@array/langSelectKey"
+            android:entryValues="@array/langSelectVal"
+            android:dialogIcon="@drawable/ic_language"
+            android:icon="@drawable/ic_language"
+            android:key="prefLangSettings"
+            android:summary=""
+            android:title="@string/pref_lang_settings" />
+
+        <ListPreference
+            android:dialogIcon="@drawable/ic_cloud_server"
+            android:icon="@drawable/ic_cloud_server"
+            android:key="prefCloudUrl"
+            android:title="@string/pref_cloud_url"
+            android:summary="" />
+
+       <ListPreference
+           android:entries="@array/sortRegKey"
+           android:entryValues="@array/sortRegVal"
+           android:dialogIcon="@drawable/ic_filter"
+           android:icon="@drawable/ic_filter"
+           android:key="prefSortRegList"
+           android:summary=""
+           android:title="@string/pref_sort_reg_list" />
+
+       <Preference
+           android:key="prefAppVer"
+           android:title="@string/pref_app_ver"
+           android:icon="@drawable/ic_event_log"
+           android:summary="" />
+
+       <Preference
+           android:key="prefInstNewApp"
+           android:title="@string/pref_install_latest_app"
+           android:icon="@drawable/ic_add"
+           android:summary="" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

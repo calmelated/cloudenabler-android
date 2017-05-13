@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view" type="id">view</item>
+    <item name="edit" type="id">edit</item>
+    <item name="remove" type="id">remove</item>
+    <item name="setval" type="id">setval</item>
+    <item name="connect" type="id">connect</item>
+    <item name="add" type="id">add</item>
+    <item name="register" type="id">register</item>
+    <item name="password" type="id">password</item>
+    <item name="mbImport" type="id">import</item>
+    <item name="mbExport" type="id">export</item>
+    <item name="logExport" type="id">logExport</item>
+    <item name="evtlog" type="id">evtlog</item>
+    <item name="copy" type="id">copy</item>
+    <item name="chart" type="id">chart</item>
+    <item name="login" type="id">login</item>
+    <item name="swmac" type="id">switch</item>
+    <item name="swback" type="id">restore</item>
+    <item name="wronce" type="id">write_once</item>
+</resources>

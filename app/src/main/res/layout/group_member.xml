@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp">
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView2"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="textPersonName|textAutoComplete"
+                    android:id="@+id/editName"
+                    android:hint="@string/group_name"
+                    android:maxLength="64"
+                    android:layout_weight="9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="textPersonName|textAutoComplete"
+                    android:id="@+id/editSname"
+                    android:hint="@string/group_sname"
+                    android:visibility="gone"
+                    android:maxLength="32"
+                    android:layout_weight="9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/txtDevice"
+                    android:text="@string/device"
+                    android:layout_weight="9"
+                    android:layout_marginLeft="3dp" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinDeviceSn"
+                    android:layout_weight="9" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
+
+                <TextView
+                    android:id="@+id/txtRegister"
+                    android:textColor="@android:color/black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/register"
+                    android:layout_weight="9"
+                    android:layout_marginLeft="3dp" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinDeviceAddr"
+                    android:layout_weight="9" />
+
+                <CheckBox
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ckboxAdvGp"
+                    android:layout_gravity="left"
+                    android:text="@string/enable_advgp"
+                    android:textSize="20sp"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="15dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/btnSave"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:background="#2E5E86"
+                android:textColor="#ffffffff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:gravity="center" >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/save_and_next"
+                android:id="@+id/saveAndNext"
+                android:background="#00000000"
+                android:textColor="#2E5E86"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10">
+    </LinearLayout>
+
+
+</LinearLayout>

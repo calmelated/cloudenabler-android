@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/prev"
+        android:icon="@drawable/ic_left"
+        android:title="@string/prev"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/next"
+        android:icon="@drawable/ic_right"
+        android:title="@string/next"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/realTime"
+        android:title="@string/real_time"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/average"
+        android:title="@string/average"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/max"
+        android:title="@string/max"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/min"
+        android:title="@string/min"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/chooseDate"
+        android:icon="@drawable/ic_date"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+</menu>

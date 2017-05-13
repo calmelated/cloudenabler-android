@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="preferenceScreen">
+    <PreferenceCategory
+        android:key="CategoryCloud"
+        android:title="@string/pref_cloud_settings" >
+
+        <CheckBoxPreference
+            android:icon="@drawable/ic_cloud"
+            android:key="prefEnCloud"
+            android:title="@string/pref_enable_cloud" />
+
+        <CheckBoxPreference
+            android:dependency="prefEnCloud"
+            android:icon="@drawable/ic_lock"
+            android:key="prefEnHTTPS"
+            android:title="@string/pref_enable_https" />
+
+        <Preference
+            android:icon="@drawable/ic_new_device"
+            android:key="prefDevReg"
+            android:title="@string/pref_device_register"
+            android:summary="@string/pref_device_register_msg" />
+
+        <EditTextPreference
+            android:dependency="prefEnCloud"
+            android:key="prefCloudUrl"
+            android:dialogIcon="@drawable/ic_cloud_server"
+            android:icon="@drawable/ic_cloud_server"
+            android:title="@string/pref_cloud_url"
+            android:summary="" />
+
+        <EditTextPreference
+            android:dependency="prefEnCloud"
+            android:key="prefCloudPt"
+            android:title="@string/pref_cloud_ptime"
+            android:inputType="number"
+            android:icon="@drawable/ic_cloud_polling_time"
+            android:dialogIcon="@drawable/ic_cloud_polling_time"
+            android:summary="" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_device_settings" android:key="CategoryDevSettings">
+        <Preference
+            android:icon="@drawable/ic_event_log"
+            android:key="prefDevFWVer"
+            android:title="@string/pref_dev_fw_ver" />
+
+        <EditTextPreference
+            android:dialogIcon="@drawable/ic_editor"
+            android:icon="@drawable/ic_editor"
+            android:key="prefDevName"
+            android:title="@string/pref_device_name" />
+
+        <Preference
+            android:icon="@drawable/ic_password"
+            android:key="prefDevPswd"
+            android:title="@string/pref_device_password" />
+
+        <Preference
+            android:icon="@drawable/ic_time_sync"
+            android:key="prefSIOSyncDevTime"
+            android:title="@string/pref_sync_time" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_time_settings" android:key="CategoryTime">
+        <CheckBoxPreference
+            android:icon="@drawable/ic_time"
+            android:key="prefEnNTPService"
+            android:title="@string/pref_enable_ntp_service" />
+
+        <ListPreference
+            android:dependency="prefEnNTPService"
+            android:icon="@drawable/ic_network"
+            android:dialogIcon="@drawable/ic_network"
+            android:entries="@array/tzKey"
+            android:entryValues="@array/tzVal"
+            android:key="prefTZone"
+            android:title="@string/pref_tzone" />
+
+        <EditTextPreference
+            android:dependency="prefEnNTPService"
+            android:dialogIcon="@drawable/ic_cloud_server"
+            android:icon="@drawable/ic_cloud_server"
+            android:key="prefNTPServer1"
+            android:title="@string/pref_ntp_server1" />
+
+        <EditTextPreference
+            android:dependency="prefEnNTPService"
+            android:dialogIcon="@drawable/ic_cloud_server"
+            android:icon="@drawable/ic_cloud_server"
+            android:key="prefNTPServer2"
+            android:title="@string/pref_ntp_server2" />
+
+        <Preference
+            android:icon="@drawable/ic_time_sync"
+            android:key="prefCESyncDevTime"
+            android:title="@string/pref_sync_time" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_tcp_slave_settings" android:key="CategoryTcpSlave">
+        <CheckBoxPreference
+            android:icon="@drawable/ic_editor"
+            android:key="prefEnTcpSlave"
+            android:title="@string/pref_enable_tcp_slave" />
+
+        <Preference
+            android:dependency="prefEnTcpSlave"
+            android:key="prefSlavTcpPort"
+            android:title="@string/pref_tcp_slave_port"
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_com0_settings" android:key="CategoryCom0">
+        <Preference
+            android:dialogIcon="@drawable/ic_editor"
+            android:icon="@drawable/ic_editor"
+            android:key="prefModbusUid"
+            android:title="@string/pref_modbus_uid" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:key="prefModbusOpMode"
+            android:title="@string/pref_modbus_opmode" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbIfaceKey"
+            android:entryValues="@array/mbIfaceVal"
+            android:key="prefModbusIface"
+            android:title="@string/pref_modbus_iface" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbBRateKey"
+            android:entryValues="@array/mbBRateVal"
+            android:key="prefModbusBaudRate"
+            android:title="@string/pref_modbus_brate" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbDataLenKey"
+            android:entryValues="@array/mbDataLenVal"
+            android:key="prefModbusDataLen"
+            android:title="@string/pref_modbus_datalen" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbParityKey"
+            android:entryValues="@array/mbParityVal"
+            android:key="prefModbusPriority"
+            android:title="@string/pref_modbus_parity" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbStopBitKey"
+            android:entryValues="@array/mbStopBitVal"
+            android:key="prefModbusStopBit"
+            android:title="@string/pref_modbus_stop_bit" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_com1_settings" android:key="CategoryCom1">
+        <Preference
+            android:dialogIcon="@drawable/ic_editor"
+            android:icon="@drawable/ic_editor"
+            android:key="prefModbusUid1"
+            android:title="@string/pref_modbus_uid" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:key="prefModbusOpMode1"
+            android:title="@string/pref_modbus_opmode" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbIfaceKey"
+            android:entryValues="@array/mbIfaceVal"
+            android:key="prefModbusIface1"
+            android:title="@string/pref_modbus_iface" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbBRateKey"
+            android:entryValues="@array/mbBRateVal"
+            android:key="prefModbusBaudRate1"
+            android:title="@string/pref_modbus_brate" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbDataLenKey"
+            android:entryValues="@array/mbDataLenVal"
+            android:key="prefModbusDataLen1"
+            android:title="@string/pref_modbus_datalen" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbParityKey"
+            android:entryValues="@array/mbParityVal"
+            android:key="prefModbusPriority1"
+            android:title="@string/pref_modbus_parity" />
+
+        <ListPreference
+            android:icon="@drawable/ic_editor"
+            android:dialogIcon="@drawable/ic_editor"
+            android:entries="@array/mbStopBitKey"
+            android:entryValues="@array/mbStopBitVal"
+            android:key="prefModbusStopBit1"
+            android:title="@string/pref_modbus_stop_bit" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_device_network" >
+        <CheckBoxPreference
+            android:icon="@drawable/ic_network"
+            android:key="prefStaticNetwork"
+            android:title="@string/pref_static_network" />
+
+        <Preference
+            android:dependency="prefStaticNetwork"
+            android:dialogIcon="@drawable/ic_editor"
+            android:icon="@drawable/ic_editor"
+            android:key="prefStaticNetworkDialog"
+            android:title="@string/pref_static_network_ip_addr" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/new_company"
+        android:icon="@drawable/ic_new_company"
+        android:title="@string/new_company"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/app_setting"
+        android:icon="@drawable/ic_settings_1"
+        android:title="@string/app_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/trial_login"
+        android:icon="@drawable/ic_login"
+        android:title="@string/trial_login"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cloud_status"
+        android:icon="@drawable/ic_cloud"
+        android:title="@string/cloud_status"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/reset_password"
+        android:icon="@drawable/ic_password"
+        android:title="@string/reset_password"
+        app:showAsAction="never" />
+
+</menu>

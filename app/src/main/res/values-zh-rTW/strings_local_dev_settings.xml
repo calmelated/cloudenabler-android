@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_cloud_settings">雲端設定</string>
+    <string name="pref_enable_cloud">啟用</string>
+    <string name="pref_dev_fw_ver">韌體版本</string>
+    <string name="pref_cloud_ptime">同步週期 (單位: 100ms)</string>
+    <string name="pref_device_name">設備名稱</string>
+    <string name="pref_sync_time">手動校時</string>
+    <string name="pref_device_settings">設定</string>
+    <string name="pref_device_network">乙太網路設定</string>
+    <string name="pref_static_network">固定IP</string>
+    <string name="pref_static_network_ip_addr">設定IP位置</string>
+    <string name="pref_sio_network_edit_ip_addr">IP位置</string>
+    <string name="pref_sio_network_edit_ip_addr_hint">如：192.168.1.100</string>
+    <string name="pref_sio_network_edit_submask">子遮網罩</string>
+    <string name="pref_sio_network_edit_submask_hint">如：255.255.255.0</string>
+    <string name="pref_sio_network_edit_gateway">閘道</string>
+    <string name="pref_sio_network_edit_gateway_hint">如：192.168.1.1</string>
+    <string name="pref_sio_network_edit_dns">DNS主機</string>
+    <string name="pref_sio_network_edit_dns_hint">如：192.168.1.1</string>
+    <string name="pref_device_password">裝置密碼</string>
+</resources>

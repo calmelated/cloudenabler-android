@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="evtlog_00">Device Power On</string>
+    <string name="evtlog_01">RTC Failed (main board)</string>
+    <string name="evtlog_02">RTC Ready (main board)</string>
+    <string name="evtlog_03">SPI Failed (main board)</string>
+    <string name="evtlog_04">Reserved</string>
+    <string name="evtlog_05">Reserved</string>
+    <string name="evtlog_06">Reserved</string>
+    <string name="evtlog_07">Reserved</string>
+    <string name="evtlog_08">Extender Event</string>
+    <string name="evtlog_09">Reserved</string>
+    <string name="evtlog_0A">Reserved</string>
+    <string name="evtlog_0B">Reserved</string>
+    <string name="evtlog_0C">Reserved</string>
+    <string name="evtlog_0D">Reserved</string>
+    <string name="evtlog_0E">Reserved</string>
+    <string name="evtlog_0F">Reserved</string>
+    <string name="evtlog_10">Reserved</string>
+    <string name="evtlog_11">Reserved</string>
+    <string name="evtlog_12">Reserved</string>
+    <string name="evtlog_13">Reserved</string>
+    <string name="evtlog_14">Reserved</string>
+    <string name="evtlog_15">Reserved</string>
+    <string name="evtlog_16">Reserved</string>
+    <string name="evtlog_17">Reserved</string>
+    <string name="evtlog_18">Reserved</string>
+    <string name="evtlog_19">Reserved</string>
+    <string name="evtlog_1A">Reserved</string>
+    <string name="evtlog_1B">Reserved</string>
+    <string name="evtlog_1C">Used by Cloud/APP</string>
+    <string name="evtlog_1D">Used by Cloud/APP</string>
+    <string name="evtlog_1E">Used by Cloud/APP (RY Event)</string>
+    <string name="evtlog_1F">Reserved</string>
+
+    <string name="evtlog_20">WLAN Power ON</string>
+    <string name="evtlog_21">WLAN Reboot</string>
+    <string name="evtlog_22">DHCP Ready</string>
+    <string name="evtlog_23">DHCP Released</string>
+    <string name="evtlog_24">WLAN Client Mode – Connected</string>
+    <string name="evtlog_25">WLAN Client Mode – Down</string>
+    <string name="evtlog_26">Do Upgrade CB Code</string>
+    <string name="evtlog_27">Upgrade CB Code – Failed</string>
+    <string name="evtlog_28">Upgrade CB Code – Successful</string>
+    <string name="evtlog_29">WLAN back to default settings</string>
+    <string name="evtlog_2A">Received the firmware - Upgrading</string>
+    <string name="evtlog_2B">Change WLAN to AP Mode</string>
+    <string name="evtlog_2C">Change WLAN to Client Mode</string>
+    <string name="evtlog_2D">Ethernet link is down</string>
+    <string name="evtlog_2E">Ethernet link is connected</string>
+    <string name="evtlog_2F">Analog Input Count is larger than Hi Threshold</string>
+
+    <string name="evtlog_30">Analog Input Count is less than Low Threshold</string>
+    <string name="evtlog_31">Wireless Analog Input Count is larger than Hi Threshold</string>
+    <string name="evtlog_32">Wireless Analog Input Count is less than Low Threshold</string>
+    <string name="evtlog_33">Change to Local Mode</string>
+    <string name="evtlog_34">Change to Cloud Mode</string>
+    <string name="evtlog_35">Successful to save CB Description File</string>
+    <string name="evtlog_36">Failed to save CB Description File</string>
+    <string name="evtlog_37">Upload Configuration</string>
+    <string name="evtlog_38">Successful to save controller F/W</string>
+    <string name="evtlog_39">Failed to save controller F/W</string>
+    <string name="evtlog_3A">Successful to save ACB Data File</string>
+    <string name="evtlog_3B">Failed to save ACB Data File</string>
+    <string name="evtlog_3C">Cloud TX Statistics - </string>
+    <string name="evtlog_3D">Cloud RX Statistics - </string>
+    <string name="evtlog_3E">Cloud DNS Statistics - </string>
+    <string name="evtlog_3F">Change Modbus/UART Settings</string>
+
+    <string name="evtlog_40">Successful to Upload Daughter Firmware</string>
+    <string name="evtlog_41">Failed to Upload Daughter Firmware</string>
+    <string name="evtlog_42">Enable/Disable to save event to internal flash</string>
+    <string name="evtlog_43">USB Status - </string>
+    <string name="evtlog_44">Send Log </string>
+
+    <string name="evtlog_unknown_type">Unknown type</string>
+    <string name="evtlog_back_normal">Back to normal!</string>
+    <string name="evtlog_write_error">Unable to write!</string>
+    <string name="evtlog_profile_error">Invalid Profile!</string>
+    <string name="evtlog_nousb_error">Device not found!</string>
+
+</resources>

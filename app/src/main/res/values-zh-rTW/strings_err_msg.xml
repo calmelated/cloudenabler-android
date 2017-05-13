@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="err_msg_invalid_ip">IP格式錯誤</string>
+    <string name="err_msg_required_6">最少需6個字元</string>
+    <string name="err_msg_required_8">最少需8個字元</string>
+    <string name="err_msg_empty">不可空白</string>
+    <string name="err_msg_too_long">欄位內容太長！</string>
+    <string name="err_msg_not_email">Email格式錯誤</string>
+    <string name="err_msg_pwd_mismatch">密碼不一致</string>
+    <string name="err_msg_not_orig_pwd">非原始密碼</string>
+    <string name="err_msg_company_existed">公司名稱重複 !</string>
+    <string name="err_msg_device_existed">此設備已啟用，請先至雲端刪除此設備，再重新啟用。</string>
+    <string name="err_msg_no_owner">此公司無管理者</string>
+    <string name="err_msg_no_belong_company">此帳戶不屬於任何公司</string>
+    <string name="err_msg_no_such_company">無此公司名稱</string>
+    <string name="err_msg_no_devices">無此設備</string>
+    <string name="err_msg_auth_failed">認証失敗或無此帳戶</string>
+    <string name="err_msg_pwd_failed">密碼錯誤 !</string>
+    <string name="err_msg_orig_pwd_failed">原密碼錯誤 !</string>
+    <string name="err_msg_activate_failed">啟用失敗 !</string>
+    <string name="err_msg_max_account_exceeded">已達最大帳戶數量!</string>
+    <string name="err_msg_max_device_exceeded">已達最大裝置數量!</string>
+    <string name="err_msg_max_group_exceeded">已達最大群組數量!</string>
+    <string name="err_msg_max_program_exceeded">已達最大程式數量 !</string>
+    <string name="err_msg_max_email_exceeded">已達最大電郵數量 !</string>
+    <string name="err_msg_max_announce_exceeded">已達最大公告數量 !</string>
+    <string name="err_msg_max_flink_exceeded">已達最大檔案連結數量 !</string>
+    <string name="err_msg_tcp_timeout">連線有問題，請重新嘗試 !</string>
+    <string name="err_msg_no_inet">請確定裝置有網路連線</string>
+    <string name="err_msg_no_more_updated">這個裝置沒有新的程式可以更新</string>
+    <string name="err_msg_no_sec_sio">沒有第二個裝置可以複製設定</string>
+    <string name="err_msg_unable_connect">無法連到裝置，請重新嘗試</string>
+    <string name="err_msg_unable_query">無法從雲端拿到資料，請重新嘗試</string>
+    <string name="err_msg_unable_update">無法更新，請重新嘗試</string>
+    <string name="err_msg_unable_add">無法新增，請重新嘗試</string>
+    <string name="err_msg_unable_delete">無法刪除，請重新嘗試</string>
+    <string name="err_msg_dup_user">這帳戶/名稱已被其他人使用，請嘗試其他的帳戶/名稱</string>
+    <string name="err_msg_invalid_str">輸入不正確</string>
+    <string name="err_msg_password_not_equal">確認密碼輸入錯誤</string>
+    <string name="err_msg_name_reserved">名字已經被保留</string>
+    <string name="err_msg_wrong_password">密碼錯誤</string>
+    <string name="err_msg_group_existed">這群組已經存在!</string>
+    <string name="err_msg_format">錯誤的格式</string>
+    <string name="err_msg_no_member">這公司沒有任何帳號！</string>
+</resources>

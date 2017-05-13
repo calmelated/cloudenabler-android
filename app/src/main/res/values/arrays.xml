@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="langSelectKey">
+        <item name="0">English</item>
+        <item name="1">繁體中文</item>
+    </string-array>
+    <string-array name="langSelectVal">
+        <item name="0">en_US</item>
+        <item name="1">zh_TW</item>
+    </string-array>
+
+    <string-array name="sortRegKey">
+        <item name="0">Function code first</item>
+        <item name="1">Modbus address first</item>
+    </string-array>
+    <string-array name="sortRegVal">
+        <item name="0">func_code</item>
+        <item name="1">mbus_addr</item>
+    </string-array>
+
+    <string-array name="customer">
+        <item name="0">KSMT</item>
+        <item name="1">FullKey</item>
+        <item name="2">KSMT-Dev</item>
+        <item name="3">KSMT-Test-All</item>
+        <item name="4">YATEC</item>
+        <item name="5">HYEC</item>
+        <item name="6">LILU</item>
+        <item name="7">KSTM-Log</item>
+    </string-array>
+
+    <string-array name="deviceType">
+        <item name="0">16 Bits Int</item>
+        <item name="1">16 Bits Unsigned Int</item>
+        <item name="2">32 Bits Int (High)</item>
+        <item name="3">32 Bits Int (Low)</item>
+        <item name="4">32 Bits Unsigned Int (High)</item>
+        <item name="5">32 Bits Unsigned Int (Low)</item>
+        <item name="6">IEEE-754 (High)</item>
+        <item name="7">IEEE-754 (Low)(Low)</item>
+        <item name="8">Fix Point (High)</item>
+        <item name="9">Fix Point (Low)</item>
+        <item name="50">16 Bits Int (w)</item>
+        <item name="51">16 Bits Unsigned Int (w)</item>
+        <item name="52">32 Bits Int (High) (w)</item>
+        <item name="53">32 Bits Int (Low) (w)</item>
+        <item name="54">32 Bits Unsigned Int (High) (w)</item>
+        <item name="55">32 Bits Unsigned Int (Low) (w)</item>
+        <item name="56">IEEE-754 (High) (w)</item>
+        <item name="57">IEEE-754 (Low) (w)</item>
+        <item name="58">Fix Point (High) (w)</item>
+        <item name="59">Fix Point (Low) (w)</item>
+    </string-array>
+
+    <string-array name="cloudPTKey">
+        <item name="0">0 sec.</item>
+        <item name="1">1 sec.</item>
+        <item name="2">5 sec.</item>
+        <item name="3">10 sec.</item>
+        <item name="4">30 sec.</item>
+        <item name="5">60 sec.</item>
+        <item name="6">300 sec.</item>
+    </string-array>
+
+    <string-array name="cloudPTVal">
+        <item name="0">0</item>
+        <item name="1">10000</item>
+        <item name="2">50000</item>
+        <item name="3">100000</item>
+        <item name="4">300000</item>
+        <item name="5">600000</item>
+        <item name="6">3000000</item>
+    </string-array>
+
+    <string-array name="mbOpmodeKey">
+        <item name="0">RTU Slave</item>
+        <item name="1">ASCII Slave</item>
+    </string-array>
+
+    <string-array name="mbOpmodeVal">
+        <item name="0">0</item>
+        <item name="1">2</item>
+    </string-array>
+
+    <string-array name="proxyOpmodeKey">
+        <item name="2">RTU Master</item>
+        <item name="3">ASCII Master</item>
+        <item name="4">RTU Proxy</item>
+        <item name="5">ASCII Proxy</item>
+    </string-array>
+
+    <string-array name="proxyOpmodeVal">
+        <item name="2">1</item>
+        <item name="3">3</item>
+        <item name="4">5</item>
+        <item name="5">7</item>
+    </string-array>
+
+    <string-array name="mstOpmodeKey">
+        <item name="2">RTU Master</item>
+        <item name="3">ASCII Master</item>
+    </string-array>
+
+    <string-array name="mstOpmodeVal">
+        <item name="2">1</item>
+        <item name="3">3</item>
+    </string-array>
+
+    <string-array name="mbIfaceKey">
+        <item name="0">RS-232</item>
+        <item name="1">RS-485</item>
+    </string-array>
+
+    <string-array name="mbIfaceVal">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+
+    <string-array name="mbDataLenKey">
+        <item name="0">7 Bit</item>
+        <item name="1">8 Bit</item>
+    </string-array>
+
+    <string-array name="mbDataLenVal">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+
+    <string-array name="mbDataLenKey8">
+        <item name="0">8 Bit</item>
+    </string-array>
+
+    <string-array name="mbDataLenVal8">
+        <item name="0">1</item>
+    </string-array>
+
+    <string-array name="mbParityKey">
+        <item name="0">None</item>
+        <item name="0">Even</item>
+        <item name="0">Odd</item>
+    </string-array>
+
+    <string-array name="mbParityVal">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+
+    <string-array name="mbStopBitKey">
+        <item name="0">1 bit</item>
+        <item name="0">2 bit</item>
+    </string-array>
+
+    <string-array name="mbStopBitVal">
+        <item name="0">0</item>
+        <item name="1">1</item>
+    </string-array>
+
+    <string-array name="mbBRateKey">
+        <item name="0">1200</item>
+        <item name="1">2400</item>
+        <item name="2">4800</item>
+        <item name="3">9600</item>
+        <item name="4">19200</item>
+        <item name="5">38400</item>
+        <item name="6">57600</item>
+        <item name="7">115200</item>
+        <item name="8">230400</item>
+        <item name="9">460800</item>
+        <item name="10">921600</item>
+    </string-array>
+
+    <string-array name="mbBRateVal">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+
+    <string-array name="tzKey">
+        <item name="0">GMT-12:00</item>
+        <item name="1">GMT-11:00</item>
+        <item name="2">GMT-10:00</item>
+        <item name="3">GMT-09:00</item>
+        <item name="4">GMT-08:00</item>
+        <item name="5">GMT-07:00</item>
+        <item name="6">GMT-06:00</item>
+        <item name="7">GMT-05:00</item>
+        <item name="8">GMT-04:00</item>
+        <item name="9">GMT-03:30</item>
+        <item name="10">GMT-03:00</item>
+        <item name="11">GMT-02:00</item>
+        <item name="12">GMT-01:00</item>
+        <item name="13">GMT</item>
+        <item name="14">GMT+01:00</item>
+        <item name="15">GMT+02:00</item>
+        <item name="16">GMT+03:00</item>
+        <item name="17">GMT+03:30</item>
+        <item name="18">GMT+04:00</item>
+        <item name="19">GMT+04:30</item>
+        <item name="20">GMT+05:00</item>
+        <item name="21">GMT+05:30</item>
+        <item name="22">GMT+06:00</item>
+        <item name="23">GMT+07:00</item>
+        <item name="24">GMT+08:00</item>
+        <item name="25">GMT+09:00</item>
+        <item name="26">GMT+09:30</item>
+        <item name="27">GMT+10:00</item>
+        <item name="28">GMT+11:00</item>
+        <item name="29">GMT+12:00</item>
+    </string-array>
+
+    <string-array name="tzVal">
+        <item name="0">-43200</item>
+        <item name="1">-39600</item>
+        <item name="2">-36000</item>
+        <item name="3">-32400</item>
+        <item name="4">-28800</item>
+        <item name="5">-25200</item>
+        <item name="6">-21600</item>
+        <item name="7">-18000</item>
+        <item name="8">-14400</item>
+        <item name="9">-12600</item>
+        <item name="10">-10800</item>
+        <item name="11">-7200</item>
+        <item name="12">-3600</item>
+        <item name="13">0</item>
+        <item name="14">3600</item>
+        <item name="15">7200</item>
+        <item name="16">10800</item>
+        <item name="17">12600</item>
+        <item name="18">14400</item>
+        <item name="19">16200</item>
+        <item name="20">18000</item>
+        <item name="21">19800</item>
+        <item name="22">21600</item>
+        <item name="23">25200</item>
+        <item name="24">28800</item>
+        <item name="25">32400</item>
+        <item name="26">34200</item>
+        <item name="27">36000</item>
+        <item name="28">39600</item>
+        <item name="29">43200</item>
+    </string-array>
+
+    <string-array name="units">
+        <item name="0">None</item>
+        <item name="1">Enter unit</item>
+        <item name="2">℃</item>
+        <item name="3">%</item>
+        <item name="4">V</item>
+        <item name="5">A</item>
+        <item name="6">kV</item>
+        <item name="7">kA</item>
+        <item name="8">kW</item>
+        <item name="9">kVA</item>
+        <item name="10">kVAR</item>
+        <item name="11">kWH</item>
+        <item name="12">Hz</item>
+    </string-array>
+
+    <string-array name="importance">
+        <item name="0">Low</item>
+        <item name="1">Medium</item>
+        <item name="2">High</item>
+    </string-array>
+
+</resources>

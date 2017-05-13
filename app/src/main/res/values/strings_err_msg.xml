@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="err_msg_invalid_ip">Invalid IP address</string>
+    <string name="err_msg_required_6">Required at least 6 letters</string>
+    <string name="err_msg_required_8">Required at least 8 letters</string>
+    <string name="err_msg_empty">Can\'t be empty</string>
+    <string name="err_msg_too_long">Field too long!</string>
+    <string name="err_msg_not_email">Invalid Email</string>
+    <string name="err_msg_pwd_mismatch">Password doesn\'t match</string>
+    <string name="err_msg_not_orig_pwd">Not original password</string>
+    <string name="err_msg_company_existed">Company already existed on the Cloud!</string>
+    <string name="err_msg_device_existed">The device already belonged to a company! Remove the setting first, then create a new company with this device</string>
+    <string name="err_msg_no_owner">No owner in this company</string>
+    <string name="err_msg_no_belong_company">The user doesn\'t belong any company</string>
+    <string name="err_msg_no_such_company">No such company on the Cloud</string>
+    <string name="err_msg_no_devices">No any devices</string>
+    <string name="err_msg_auth_failed">Authentication failed or No such user</string>
+    <string name="err_msg_pwd_failed">Password error!</string>
+    <string name="err_msg_orig_pwd_failed">Orignal password error!</string>
+    <string name="err_msg_activate_failed">Activate failed!</string>
+    <string name="err_msg_max_account_exceeded">Maximum number of account exceeded!</string>
+    <string name="err_msg_max_device_exceeded">Maximum number of device exceeded!</string>
+    <string name="err_msg_max_group_exceeded">Maximum number of group exceeded!</string>
+    <string name="err_msg_max_program_exceeded">Maximum number of program exceeded!</string>
+    <string name="err_msg_max_email_exceeded">Maximum number of email exceeded!</string>
+    <string name="err_msg_max_announce_exceeded">Maximum number of announcement exceeded!</string>
+    <string name="err_msg_max_flink_exceeded">Maximum number of link exceeded!</string>
+    <string name="err_msg_tcp_timeout">The connection might have some problems. Please try again!</string>
+    <string name="err_msg_no_inet">Make sure the device have Internet connection and try again!</string>
+    <string name="err_msg_no_more_updated">No more updated program in this device could be uploaded!</string>
+    <string name="err_msg_no_member">No any member in this company!</string>
+    <string name="err_msg_no_sec_sio">There is no second device to copy settings</string>
+    <string name="err_msg_unable_connect">Unable to connect device. Please try again.</string>
+    <string name="err_msg_unable_query">Unable to get date from Cloud. Please try again.</string>
+    <string name="err_msg_unable_update">Unable to update. Please try again.</string>
+    <string name="err_msg_unable_add">Unable to create. Please try again.</string>
+    <string name="err_msg_unable_delete">Unable to remove. Please try again.</string>
+    <string name="err_msg_dup_user">This account/name has been used by someone else. Please try another account/name.</string>
+    <string name="err_msg_format">Wrong format</string>
+    <string name="err_msg_invalid_str">Invalid input</string>
+    <string name="err_msg_password_not_equal">Password does not match the confirm password</string>
+    <string name="err_msg_name_reserved">Name has been reserved</string>
+    <string name="err_msg_wrong_password">Wrong password</string>
+    <string name="err_msg_group_existed">The group name has already existed !</string>
+</resources>

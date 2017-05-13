@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_cloud_settings">Cloud Settings</string>
+    <string name="pref_enable_cloud">Enable Cloud</string>
+    <string name="pref_dev_fw_ver">Device firmware version</string>
+    <string name="pref_cloud_ptime">Polling Time (unit: 100ms)</string>
+    <string name="pref_device_name">Device name</string>
+    <string name="pref_sync_time">Sync Time manually</string>
+    <string name="pref_device_settings">Device Settings</string>
+    <string name="pref_device_network">Ethernet Settings</string>
+    <string name="pref_static_network">Static IP</string>
+    <string name="pref_static_network_ip_addr">Static IP Address</string>
+    <string name="pref_sio_network_edit_ip_addr">IP address</string>
+    <string name="pref_sio_network_edit_ip_addr_hint">e.g. 192.168.1.100</string>
+    <string name="pref_sio_network_edit_submask">Submask</string>
+    <string name="pref_sio_network_edit_submask_hint">e.g. 255.255.255.0</string>
+    <string name="pref_sio_network_edit_gateway">Gateway</string>
+    <string name="pref_sio_network_edit_gateway_hint">e.g. 192.168.1.1</string>
+    <string name="pref_sio_network_edit_dns">DNS Server</string>
+    <string name="pref_sio_network_edit_dns_hint">e.g. 192.168.1.1</string>
+    <string name="pref_device_password">Device Password</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="gcm_registered">GCM:裝置成功註冊!</string>
+    <string name="gcm_unregistered">GCM:裝置已移除!</string>
+    <string name="gcm_message">GCM:收到訊息!</string>
+    <string name="gcm_error">GCM錯誤:%1$s</string>
+    <string name="gcm_recoverable_error">GCM:可復原的錯誤(%1$s)</string>
+    <string name="gcm_deleted">GCM:已刪除了 %1$d筆無法傳送的訊息!</string>
+    <string name="server_registering">重新註冊到雲端主機(%1$d/%2$d)</string>
+    <string name="server_registered">KCloud:成功註冊裝置!</string>
+    <string name="server_unregistered">KCloud:成功移除裝置!</string>
+    <string name="server_register_error">重試 %1$d 次後, 無法成功註冊裝置到KCloud!</string>
+    <string name="server_unregister_error">無法從KCloud上移除裝置!(%1$s).</string>
+</resources>
