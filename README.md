@@ -18,3 +18,6 @@ Android source code for CloudEnabler project
  - From [Google Play](https://play.google.com/store/apps/details?id=tw.com.ksmt.cloud)
  - From [Offical Website](https://app.ksmt.co)
  
+## Reference
+ - [User Manual](http://www.ksmt.co/web/content/1117?unique=ce6b218d9304905aab0ac423309fbb31a817789a&download=true)
+ 
