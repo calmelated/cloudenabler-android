@@ -10,7 +10,7 @@ Android source code for CloudEnabler project
 ## Installation
  - `git clone` this project
  - Import this project to your Android Studio
- - Fill in you LeanPush ID/KEY in LCUS_APP_ID/LCUS_APP_KEY
+ - Fill in your LeanPush ID/KEY to `LCUS_APP_ID`/`LCUS_APP_KEY` in file `PrjCfg.java`
  - Compile the whole project and generate the apk of the APP.
  - Install the apk to your Android device
 
